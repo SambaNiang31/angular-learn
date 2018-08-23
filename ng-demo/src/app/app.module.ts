@@ -10,6 +10,10 @@ import { TabListComponent } from './mood/tab-list/tab-list.component';
 import { HappyComponent } from './mood/happy/happy.component';
 import { SosoComponent } from './mood/soso/soso.component';
 import { AngryComponent } from './mood/angry/angry.component';
+import { CryptoComponent } from './crypto/crypto/crypto.component';
+import {FormsModule} from "@angular/forms";
+import {HttpClientModule} from "@angular/common/http";
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
@@ -22,10 +26,12 @@ import { AngryComponent } from './mood/angry/angry.component';
     TabListComponent,
     HappyComponent,
     SosoComponent,
-    AngryComponent
+    AngryComponent,
+    CryptoComponent,
+    FormComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, FormsModule, HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

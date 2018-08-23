@@ -1,10 +1,15 @@
 <div>
   <app-tab-list></app-tab-list>
-</div>
 
+<!--
 <div >
   <app-happy *ngIf="isHappy()"></app-happy>
   <app-soso *ngIf="isSoso()"></app-soso>
   <app-angry *ngIf="isAngry()"></app-angry>
 
+</div>
+-->
+
+<!--we factorize in one pure component-->
+<app-mood-face [mood]="this.service.mood"></app-mood-face>
 </div>
