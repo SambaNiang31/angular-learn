@@ -1,0 +1,22 @@
+/*Put the good flex stuff*/
+div{
+  display: flex;
+  justify-content:space-around;
+}
+.happy{
+  border-style: solid;
+  padding: 5px;
+  border-color: green;
+  border-width: 2px;
+}
+.soso{
+  border-style: solid;
+  padding: 5px;
+  border-color: orangered;
+  border-width: 2px;
+}.angry{
+   border-style: solid;
+   border-color: red;
+   padding: 5px;
+   border-width: 2px;
+ }
