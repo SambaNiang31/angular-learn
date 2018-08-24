@@ -1,0 +1,21 @@
+<table class="table table-striped">
+
+  <thead>
+  <th>Name</th>
+  <th>Admin</th>
+  </thead>
+
+  <tbody>
+  <tr *ngFor="let user of this.service.users">
+    <td>{{user.name}}</td>
+    <td>{{user.admin}}</td>
+  </tr>
+  </tbody>
+
+</table>
+
+<h2>With Encapsulation</h2>
+
+<!--<app-user *ngFor="let user of this.service.users" [name]="user.name" [admin]="user.admin"></app-user>-->
+
+<app-user *ngFor="let user of this.service.users" [user]="user"> </app-user>
