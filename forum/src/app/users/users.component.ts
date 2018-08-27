@@ -21,6 +21,9 @@ export class UsersComponent implements OnInit {
   ngOnInit() {
   }
 
-
+  log(user){
+    console.log(user);
+    // this.service.logUser=""
+  }
 
 }

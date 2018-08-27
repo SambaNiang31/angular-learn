@@ -1,0 +1,8 @@
+.button{
+  display: inline;
+  justify-content: space-between;
+  justify-content: center;
+  border: brown solid 1px;
+  background-color: lightskyblue;
+;
+}

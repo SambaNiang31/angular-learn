@@ -38,6 +38,15 @@ function mapAnyUser(user: any): User{
     statement:user.statement
   }
 }
+function log(user){
+  return {
+    name: user.name,
+    admin: user.admin,
+    id: user.id,
+    email:user.email,
+    statement:user.statement
+  };
+}
 
 
 

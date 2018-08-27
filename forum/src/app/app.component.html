@@ -1,4 +1,13 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
-<app-users></app-users>
+<app-tab-component></app-tab-component>
+
+<div class="interface ">
+  <app-users *ngIf=" service.active === 'users'">List of Users</app-users>
+</div>
+
+<div class="interface ">
+  <app-topics  *ngIf="service.active === 'topics'"> List of Topics</app-topics>
+</div>
+
 
