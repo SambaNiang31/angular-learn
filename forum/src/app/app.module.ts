@@ -7,6 +7,7 @@ import {HttpClientModule} from "@angular/common/http";
 import { UserComponent } from './user/user.component';
 import { TopicsComponent } from './topics/topics.component';
 import { TabComponentComponent } from './tab-component/tab-component.component';
+import { CommentsListComponent } from './comments-list/comments-list.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { TabComponentComponent } from './tab-component/tab-component.component';
     UserComponent,
     TopicsComponent,
     TabComponentComponent,
+    CommentsListComponent,
 
   ],
   imports: [
